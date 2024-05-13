@@ -23,7 +23,7 @@ public class Principal {
         var datos = conversor.obtenerDatos(json,Datos.class);
 
         //TOP 10 - Los libros mas descargados
-        System.out.println("\n\n>> TOP 10 - Los libros más descargados: <<");
+        System.out.println("\n\n>> TOP 10 - Los libros más descargados <<");
         datos.resultados().stream()
                 .sorted(Comparator.comparing(DatosLibros::numeroDescargas).reversed())
                 .limit(10)
@@ -53,7 +53,7 @@ public class Principal {
             System.out.println("\nDATOS DEL LIBRO: ");
             System.out.println(libroBuscado.get());
         }else {
-            System.out.println("\nLibro no encontrado.");
+            System.out.println("\n- Libro no encontrado -");
         }
     }
 }
