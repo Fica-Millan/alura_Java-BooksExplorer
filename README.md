@@ -9,8 +9,8 @@ Book Explorer es una aplicación de línea de comandos que interactúa con la AP
 * Proporciona estadísticas personalizadas sobre las descargas.
 * Permite buscar libros por nombre en español.
 
-![BusquedaLibro]()
-![Top10]()
+![BusquedaLibro](https://github.com/Fica-Millan/alura_Java-BooksExplorer/blob/main/img/BusquedaLibro.png)
+![Top10](https://github.com/Fica-Millan/alura_Java-BooksExplorer/blob/main/img/Top10_Estadisticas.png)
 
 ## Tecnologías Utilizadas
 * Java
